@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+.container{
+    padding: 20px;
+}
+.box{
+    height: 200px;
+    margin-top: 20px;
+}
+
+.row1{
+    background-image: url(../../Downloads/lautech\ image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.row2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 20px;
+}
+
+.row2 .one{
+    background-image: url(../../Downloads/room.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+.row2 .two{
+    background-image: url(../../Downloads/duplex.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+.row2 .three{
+    background: url(../../Downloads/lautech\ logo.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.row3{
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    column-gap: 20px;
+    /* justify-content: space-between; */
+}
+.row3 .one{
+    background-image: url(../../Downloads/images.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.row3 .two{
+    background-image: url(../../Downloads/download.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.row4{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    column-gap: 20px;
+}
+.row4 .one{
+    background-image: url(../../Downloads/mosjid\ k.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.row4 .two{
+    background-size: cover;
+    background-position: center;
+    background-image: url(../../Downloads/pool.jfif);
+}
+nav{
+    display: flex;
+    padding: 20px 200px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+    list-style: none;
+}
+img{
+    width: 60px;
+    height: 50px;
+}
+a{
+    margin: 30px;
+    text-decoration: none;
+}
+button{
+    padding: 20px;
+    width: 60px;
+    background-color: white;
+}
+button:hover{
+    padding: 30px;
+    width: 5px;
+    background-color: red;
+}
